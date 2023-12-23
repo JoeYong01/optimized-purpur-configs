@@ -16,7 +16,7 @@ settings:
   timeout-time: 60
   restart-on-crash: true
   restart-script: ./start.sh
-  save-user-cache-on-stop-only: false
+  save-user-cache-on-stop-only: true
   bungeecord: false
   moved-too-quickly-multiplier: 10.0
   moved-wrongly-threshold: 0.0625
