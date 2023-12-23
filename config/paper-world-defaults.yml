@@ -153,7 +153,7 @@ entities:
       items:
         cobblestone: 300
     count-all-mobs-for-spawning: false
-    creative-arrow-despawn-rate: 20
+    creative-arrow-despawn-rate: '20'
     despawn-ranges:
       ambient:
         hard: 72
@@ -192,7 +192,7 @@ entities:
     - SleepingZ
     iron-golems-can-spawn-in-air: false
     monster-spawn-max-light-level: default
-    non-player-arrow-despawn-rate: 20
+    non-player-arrow-despawn-rate: '20'
     per-player-mob-spawns: true
     scan-for-legacy-ender-dragon: true
     skeleton-horse-thunder-spawn-chance: default
@@ -247,7 +247,7 @@ environment:
   treasure-maps:
     enabled: true
     find-already-discovered:
-      loot-tables: true
+      loot-tables: 'true'
       villager-trade: false
   water-over-lava-flow-speed: 5
 feature-seeds:
@@ -303,19 +303,19 @@ spawn:
 tick-rates:
   behavior:
     villager:
-      validatenearbypoi: 60
       acquirepoi: 120
+      validatenearbypoi: 60
   container-update: 1
   dry-farmland: 1
   grass-spread: 4
   mob-spawner: 2
   sensor:
     villager:
-      secondarypoisensor: 80
       nearestbedsensor: 80
-      villagerbabiessensor: 40
-      playersensor: 40
       nearestlivingentitysensor: 40
+      playersensor: 40
+      secondarypoisensor: 80
+      villagerbabiessensor: 40
   wet-farmland: 1
 unsupported-settings:
   fix-invulnerable-end-crystal-exploit: true
